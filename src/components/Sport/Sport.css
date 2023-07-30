@@ -1,0 +1,256 @@
+.Sport img{
+    height:250px;
+    width:350px;
+    transition: 1s;
+    
+}
+/* .Sport img:hover{
+    transform: scale(1.1); 
+} */
+.Sport{
+  display: table;
+  margin: 0 auto;
+  max-width: 100px;
+}
+.SportH1Start{
+ font-family: math;
+ transform: skew(-15deg);
+ margin-left: 0.3em;
+ font-weight: 500;
+}
+.SportPStart{
+    font-family: math;
+    transform: skew(-15deg);
+    margin-left: 0.3em;
+    font-size: 29px;
+    font-weight: 500;
+    color:black;
+}
+.SportImg{
+ background-color: rgb(217, 213, 213);  
+ width: 200%;
+ height:300px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: -58em;
+}
+.Sport Button{
+    background-color: #555;
+    color: white;
+    font-size:26px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:350px;
+    height:50px;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-300%, 0%);
+    -ms-transform: translate(-150%, -50%);
+}
+.Sport Button:hover{
+    background-color: black;
+     
+}
+.NavbarSport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.NavSport{
+    display: flex;
+    column-gap: 117px;
+}
+.SportLi{
+    color:#9a9797;
+    font-size: 27px;
+    font-weight:unset;
+}
+.Sport hr{
+    margin-top: 15px;
+}
+.FooterDiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.FooterNavN1{
+    column-gap: 10px;
+}
+.FooterNavLi{
+    margin-left: 110px;
+    margin-top: 25px;
+    color:rgb(31, 30, 30);
+}
+.FooterNavNum1H1{
+    font-size: 23px;
+  
+}
+.FooterDiv3P{
+    color:rgb(31, 30, 30);
+    font-size: 22PX;
+    
+}
+.FooterDiv3H1{
+    font-size: 32px;
+}
+.FooterDiv3{
+  display: table;
+  margin: 0 auto;
+}
+.button {
+    display: flex;
+  }
+  
+  .box {
+    width: 75px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    background: rgb(58, 165, 253);
+    overflow: hidden;
+  }
+  
+  .box:before {
+    content: "S";
+    position: absolute;
+    top: 0;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+  }
+  
+  .box:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'I';
+  }
+  
+  .box:nth-child(3)::before {
+    content: 'G';
+  }
+  
+  .box:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: 'N';
+  }
+  
+  .box:nth-child(5)::before {
+    content: 'I';
+  }
+  .box:nth-child(6)::before {
+    transform: translateY(-100%);
+    content: 'N';
+  }
+  .FooterDiv4 h1{
+    font-size: 35px;
+
+  }
+  .FooterDiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterDiv4{
+    margin-top: 50px;
+  }
+  .button:hover .box:before {
+    transform: translateY(0);
+  }
+  .FooterDiv4{
+    background-color: yellow;
+    width:200%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    background-size: cover;
+    background-size: 100%;
+    margin-left:-40em ;
+  }
+  .FooterDiv5{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    column-gap: 90px;
+  }
+  .FooterDiv5H1{
+    font-size: 27px;
+  }
+  .FooterDiv5Li{
+    margin-top: 10px;
+    color:rgb(30, 30, 30);
+  }
+  .card:hover{
+    border-color: black;
+    height:1050px
+  }
+  .card img{
+    height:600px;
+    width:580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .card-deck{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    width:100%;
+    position: relative;
+    box-sizing: border-box;
+  } 
+
+@media(min-width:100%){
+  .card-deck{
+    width:1600px;
+  }
+}
+.Cards{
+  gap:30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.cardoftop img{
+  height:950px;
+  width:1400px;
+  margin-right: 40em;
+  vertical-align: middle;
+}
+.card-top{
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 60px;
+  display: block;
+}
+.cardofdown{
+ margin-top: -180px;
+ background-color: white;
+ margin-left: 1200px;}
+.cardofdown h1{
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+}
+.cardofdown p{
+  font-size: 20px;
+  color:rgb(40, 39, 39);
+}

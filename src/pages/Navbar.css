@@ -1,0 +1,240 @@
+.Navbar{
+    margin: 0 auto; 
+} 
+.Navbar_Navigations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0px;
+    background-color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    color:black;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.PageNum2{
+    display: flex;
+    margin-left: 500px;
+    column-gap: 0px;
+}
+.PageNum1{
+    display: flex;
+    column-gap: 55px;
+    list-style: none;
+}
+.ButNav{
+    height:50px;
+    width: 150px;
+    margin-top:60px;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    border-color: grey;
+    border-style: solid; 
+    padding: 5px;
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.ButNavLi{
+    height:96px;
+    width: 220px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 23px;
+    border: none;
+    background-color:rgb(255, 255, 255);
+    border-radius: 7px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+ .ButNavLi{
+  float: left;
+  transition: .3s;
+} 
+.ButNavLi{
+  text-decoration: none;
+  transition: .5;
+  font-size: 15px;
+  margin-left:16px;
+}
+.ButNavLi:hover{
+  text-decoration: none;
+  color: #591BC5;;
+}
+.ButNavLi:hover{
+  height: 85px;
+ background: #EFEEF5;
+  text-decoration: none;
+  transform: skew(20deg);
+}  
+.Navbar_Start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0px;
+    height:150px;
+}
+.Company{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.Navbar_li_work{
+    margin-top: 70px;
+    font-size: 25px;
+}
+.Navbar_li_work::after{
+    content: 'Your account';
+    color:rgb(111, 102, 102);
+    font-size: 12.5px;
+    position: relative;
+    top:21px;
+    right: 166px; 
+}
+.Navbar_li_work_About{
+    margin-top: 70px;
+    font-size: 25px;
+}
+.Navbar_li_work_Main{
+    margin-top: 70px;
+    font-size: 25px;
+}
+.Navbar_li_work_Main::after{
+    content: 'Your account';
+    color:rgb(111, 102, 102);
+    font-size: 12.5px;
+    position: relative;
+    top:21px;
+    right: 93px; 
+}
+.Navbar_li_work_FAQ{
+    margin-top: 70px;
+    font-size: 25px;
+    /* position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 9;
+    color: var(--color);
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block; */
+}
+.Navbar_li_work_FAQ::after{
+    content: 'Bishkek,Isanova';
+    color:rgb(111, 102, 102);
+    font-size: 12.5px;
+    position: relative;
+    top:21px;
+    right: 107px; 
+
+}
+.Navbar_li_work_About::after{
+    content: 'Know more';
+    color:rgb(111, 102, 102);
+    font-size: 12.5px;
+    position: relative;
+    top:21px;
+    right:117px;
+}
+.Start{
+    display: flex;
+    column-gap: 75px;
+}
+hr{
+
+   background-color: rgb(236, 234, 231);
+   width:100%;
+   
+}
+.ButHav{
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.1em;
+    line-height: 2em;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 9;
+    font-size: 27px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-top: 65px;
+    margin-left: 50px;
+    color: var(--color);
+   }
+   
+   .ButHav:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .ButHav:hover {
+    color: #fff;
+   }
+   
+   .ButHav:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .ButHav:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .ButHav:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
+
+  .clockpage
+{
+  margin: auto;
+  max-width: 500px;
+  min-width: 100px;
+  background: white;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 10px solid #55c49f;
+  margin-top: 00px;
+}
+#dayOfWeek
+{
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+}
+.sale{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px;
+}

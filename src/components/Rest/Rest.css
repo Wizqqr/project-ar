@@ -1,0 +1,134 @@
+.container-fluid{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #FFF;
+  }
+  /* ============= Animation background ========= */
+  .background {
+    background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+  }
+  .cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #D7D4E4;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+  }
+  .cube:nth-child(2n) {
+    border-color: #FFF ;
+  }
+  .cube:nth-child(2) {
+    animation-delay: 2s;
+    left: 25vw;
+    top: 40vh;
+  }
+  .cube:nth-child(3) {
+    animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+  }
+  .cube:nth-child(4) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+  }
+  .cube:nth-child(5) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 85vh;
+  }
+  .cube:nth-child(6) {
+    animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+  }
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  .HeaderRest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .HeaderRestNav{
+    list-style-type: none;
+    display: flex;
+    column-gap: 35px;
+    margin-left:25cm;
+  }
+.HeaderRestLi{
+    color:white;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.HeaderRestIconH1{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+.HeaderRestMain{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.HeaderRestMainH1{
+    text-transform: uppercase;
+  font-size: 5em;
+  letter-spacing: 1px;
+  color:White;
+}
+.HeaderRestMainP{
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color:White;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Navbar-iframe {
+    opacity: 0;
+  }
+  
+  #Navbar-iframe:hover {
+    opacity: 0.5;
+  }
+  .HeaderRestMainH1Text{
+    color:white;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
