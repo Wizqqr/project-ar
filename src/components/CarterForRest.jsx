@@ -6,13 +6,10 @@ import Byt3 from './pictures/1233.jpg'
 import Byt4 from './pictures/1234.jpg'
 import '../components/Sport/Cart/Carter.css'
 import '../components/Home/Home'
+import {MDBCarousel,MDBCarouselItem} from 'mdb-react-ui-kit';
 import jake1 from '../components/pictures/6665.jpg'
 import jake2 from '../components/pictures/6666.jpg'
 import jake3 from '../components/pictures/6667.jpg'
-import {
-  MDBCarousel,
-  MDBCarouselItem,
-} from 'mdb-react-ui-kit';
 const Carter = () => {
   const [showModal, setShow] = useState(false);
  
@@ -36,34 +33,14 @@ const Carter = () => {
         <div>
           <div className="ImTired" 
           >
-  <MDBCarousel showControls showIndicators dark fade>
+  <MDBCarousel>
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg'    
+        src='https://i.simpalsmedia.com/999.md/BoardImages/900x900/b6c0715e0dedd272017dab83b0cce4c1.jpg'
         alt='...'
       >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </MDBCarouselItem>
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg'
-        alt='...'
-      >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </MDBCarouselItem>
 
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={3}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg'
-        alt='...'
-      >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </MDBCarouselItem>
     </MDBCarousel>
     </div>
@@ -97,14 +74,7 @@ const Carter = () => {
         </div>
         </div>
         </div>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+      
       </Modal>
 
       <Modal show={showModal2} onHide={handleClose2}>
@@ -137,14 +107,7 @@ const Carter = () => {
         </div>
         </div>
         </div>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose2}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose2}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+      
       </Modal>
       <Modal show={showModal3} onHide={handleClose3}>
         <Modal.Header closeButton>
@@ -176,14 +139,7 @@ const Carter = () => {
         </div>
         </div>
         </div>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose3}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose3}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+       
       </Modal>
 
       <Modal show={showModal4} onHide={handleClose4}>
@@ -192,7 +148,9 @@ const Carter = () => {
         </Modal.Header>
         <div className="Raul">
         <div className="Jakarta">
-          <img src={Byt4} alt="" />
+          <div className="ImgerMenSabaka">
+          <img className="Irash"src={Byt4} alt="" />
+          </div>
         </div>
         <div className="Jakarta2">
           <div className="JakartaText">
@@ -216,19 +174,12 @@ const Carter = () => {
         </div>
         </div>
         </div>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose4}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose4}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+  
       </Modal>
           <div className="Carter">
           <div className='Carterest'>
           <div className="CarterCard" onClick={handleShow}>
-
+      
             <img class="CarterCardImg" src={Byt1} alt="Card image cap"/>
             <div className="projishki">
             <p className='proji'>$160</p>
@@ -239,7 +190,9 @@ const Carter = () => {
       <p class="carter-text">This is a longer card with supporting text below <br></br>as a natural lead-in to additional<br></br> content. This content<br></br> is a little bit longer.</p>
       <p class="carter-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
+              
             </div>
+        
             </div>
             <div className="CarterCard"onClick={handleShow2}>
             <div className='Carterest'>

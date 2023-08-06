@@ -19,6 +19,7 @@ import Fut2 from '../pictures/fut2.jpg'
 import Fut3 from '../pictures/fut3.jpg'
 import Fut4 from '../pictures/fut4.jpg'
 import Footer from '../Footer/Footer'
+import Women from '../WomenShop/Women'
 const Home=()=>  {
   function handleClick() {
     const bodyStyle = document.getElementsByClassName('HomeLi')[0].style;
@@ -671,7 +672,7 @@ const Home=()=>  {
   </a>
 </button>
 </Link>
-<Link to='/sport'><button class="wrapper">
+<Link to='/women'><button class="wrapper">
   <a class="cta" href='#'>
     <span>SHOP WOMEN</span>
     <span>

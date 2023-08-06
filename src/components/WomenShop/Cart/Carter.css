@@ -12,6 +12,10 @@
 .JakartaText h2{
     font-size: 45px;
 }
+.ImgerMenSabaka img{
+height:1000px;
+width:3600px;
+}
 .JakartaText p{
     font-size: 25px;
 }
@@ -30,17 +34,6 @@
 }
 .CarterCard:hover{
     border: 1px solid black;
-    opacity: 0.7;
-    border-radius: 20px;
-}
-.CarterCard:hover .Mobile{display:block;}
-.Mobile{
-    background-color: black;
-    height:200px;
-    border-radius: 20px;
-    display: none;
-    margin-top: -300px;
-    margin-bottom: 0px;
 }
 .CarterCard:hover .CarterCard img{
     border-radius: 20px;
@@ -86,13 +79,8 @@
 }
 .Jakarta img{
     height:1000px;
-    width:3300px;
+    width:3200px;
 }
-.ImgerMenSabaka img{
-    height: 1000px;
-    width:5500px;
-}
-
 .Jakarta2{
     background-color: rgb(0, 132, 149);
     height:1000px;
@@ -167,27 +155,12 @@
     column-gap: 50px;
 }
 .ImTired img{
-/* height:700px;
-width:900px; */
-min-width: 1600px;
-max-width: 1600px;
-min-height: 700px;
-max-height: 700px;
+height:700px;
+width:900px;
 }
 .ImTired{
     display: flex;
     justify-content: center;align-items: center;
-    margin-top: 50px;
-
-}
-
-.ImTired img{
-    border-radius:20px 20px 20px 20px ;
-}
-.ImTired h1{
-    margin-bottom: 500px;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .Carterest img{
     height:500px;
@@ -196,7 +169,4 @@ max-height: 700px;
 }
 .carter-title{
     font-size: 35px;
-}
-.carousel-item{
-position: static;
 }

@@ -14,7 +14,7 @@ import Sign from './components/SignUp/SignUp'
 import Panth from './components/PanthMen/Panth'
 import Apper from './components/All/Apper';
 import { BrowserRouter , Routes, Route } from "react-router-dom";
-
+import Women from './components/WomenShop/Women';
 function App() {
   return (
     <div className="App">
@@ -33,6 +33,7 @@ function App() {
         <Route path='/Cruises' element={<Cruises/>}></Route>
         <Route path='/Panth' element={<Panth/>}></Route>
         {/* <Route path='/About' element={<About/>}><Route/> */}
+        <Route path='/Women' element={<Women></Women>}></Route>
         </Route>
         <Route path='/Sign' element={<Sign/>}/>
         {/* <Route path='/Sign' element={<Sign/>}/>

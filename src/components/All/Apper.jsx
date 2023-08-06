@@ -35,7 +35,7 @@ function Apper() {
 
 
   const [searchTerm, setSearchTerm] = useState('');
-  const [carList, setCarList] = useState(data);
+  const [carList, setCarList] = useState(data, data2);
   const [carList2, setCarList2] = useState(data2);
   const [carList3, setCarList3] = useState(data3);
   const [carList4, setCarList4] = useState(data4);
@@ -150,6 +150,7 @@ function Apper() {
             width: '600px',
           }}
         />
+
         <CarList carList={carList} />
         <CarList carList={carList2} />
         <CarList carList={carList3} />

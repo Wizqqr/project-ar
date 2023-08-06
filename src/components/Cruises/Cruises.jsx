@@ -10,6 +10,7 @@ import turkey from '../pictures/turkish-flag-and-turkey-turkiye-700-151081580.jp
 import Byt2 from '../pictures/Byt2.jpg'
 import { Modal, Button } from "react-bootstrap";
 import Carter from '../CarterForRest'
+import Carter2 from '../CarterForRest copy'
 import cruis from '../pictures/cruise-ship.png'
 const Cruises = () => {
     const [showModal, setShow] = useState(false);
@@ -98,11 +99,11 @@ const Cruises = () => {
     {/* <img src={egypt} alt="" /> */}
     </div>
     <div className="CruisesAboutVsDiv">
-    <h1>TURKEY</h1>
-        <p>7-days- 1500$</p>
-        <p>14-days- 2400$</p>
-        <p>21-days- 4000$</p>
-        <p>1-month- 7000$</p>
+    <h1>EGYPT</h1>
+        <p>7-days- 2200$</p>
+        <p>14-days- 2900$</p>
+        <p>21-days- 5500$</p>
+        <p>1-month- 8000$</p>
     </div>
     </div>
 </div>
@@ -119,8 +120,51 @@ const Cruises = () => {
     </div>
     <div className="Egyptian">
         <Carter/>
+        <Carter2/>
     </div>
 </div>
+<div className="ImVeryTired">
+                
+                <div className="World">
+                <div className="Tokyo">
+                <h1>Бурдж Халифа</h1>
+                  <p>«Бурдж-Хали́фа» — сверхвысотный небоскрёб высотой 828 метров в Дубае, <br></br>самое высокое и самое многоэтажное здание, самое высокое сооружение, единственный 828-метровый<br></br> и 163-этажный небоскрёб в мире. Уступчатая форм<br></br>здания напоминает сталагмит. Торжественная церемония <br></br>открытия состоялась 4 января 2010 года</p>
+                </div>
+                <div className="Korea"></div>
+                </div>
+                <div className="Australia">
+      
+                  <div className="Italy"></div>
+                  <div className="France">
+<h1>Токио</h1>
+                  <p>Токио – столица Японии, шумный город, в котором современные небоскребы с неоновой подсветкой <br></br>сочетаются с традиционными храмами. Среди деревьев расположен<br></br> богато украшенный синтоистский храм Мэйдзи, известный своими высокими <br></br>воротами. А в огромных общественных садах<br></br> находится Императорский дворец.</p>
+
+                  </div>
+                </div>
+                <div className="Ender">
+                  <div className="Germany">
+                    <div className="Karask">
+                        <h1>Spain</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi incidunt rem laborum mollitia consectetur, sunt laudantium. Necessitatibus, praesentium voluptate reprehenderit illum itaque deserunt quisquam? Voluptas dolore nostrum velit quod voluptates!</p>
+                    </div>
+                  </div>
+                  <div className="Portugal">
+                  <div className="Karask">
+                        <h1>Spain</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi incidunt rem laborum mollitia consectetur, sunt laudantium. Necessitatibus, praesentium voluptate reprehenderit illum itaque deserunt quisquam? Voluptas dolore nostrum velit quod voluptates!</p>
+                    </div>
+                  </div>
+                  <div className="Spain">
+                  <div className="Karask">
+                        <h1>Spain</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi incidunt rem laborum mollitia consectetur, sunt laudantium. Necessitatibus, praesentium voluptate reprehenderit illum itaque deserunt quisquam? Voluptas dolore nostrum velit quod voluptates!</p>
+                    </div>
+                  </div>
+                </div>
+              <div className="IwannaSleep">
+                
+              </div>
+              </div>
         <div className='CruisesFooter'>
             <div className='CruisesFooterIsStarting'>
                 <div className="CruisesFooterDivs">

@@ -534,6 +534,7 @@ hr{
     font-size: 70px;
     color:black;
     font-weight: 700;
+    text-decoration: none;
 }
 .FooterEndOfHome a::after{
     content: '';

@@ -5,6 +5,7 @@ const CarList = ({ carList, searchTerm }) => {
         <div className="container-lg mx-auto grid-cols-3">
             {carList.map((car, index) => {
                 return (
+                    <div className="Karay">
                     <Car
                         key={index}
                         carImg={car.car_img}
@@ -12,6 +13,7 @@ const CarList = ({ carList, searchTerm }) => {
                         carModel={car.car_model}
                         carYear={car.car_year}
                     />
+                    </div>
                 )
             })}
         </div>

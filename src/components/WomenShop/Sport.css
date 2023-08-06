@@ -199,7 +199,7 @@ margin-left: -58em;
   }
   .FooterDiv4{
     background-color: rgb(240, 240, 30);
-    width:200%;
+    width:235%;
     height:150px;
     display: flex;
     justify-content: center;
@@ -233,12 +233,12 @@ margin-left: -58em;
     border-color: black;
   }
   .korey{
-    margin-right: 25em;
+    margin-right: 55em;
     display: flex;
     column-gap: 100px;
   }
   .Pyshka{
-    margin-left:10em;
+    margin-left: 15em;
   }
   .card img{
     height:600px;
@@ -313,4 +313,71 @@ a{
 }
 .ToMainClass{
   font-size: 35px;
+}
+
+.MainerBek{
+  height:700px;
+  color:white;
+  width:100%;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+ background-color: black;
+  background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enUS/Images/originals-fw23-superstar-xlg-plp-mastheadsmall-d_tcm221-1034948.jpg);
+}
+.MainerBek h1{
+  font-size: 70px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 200px;
+  padding-left: 200px;
+}
+.MainerBek p{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 200px;
+}
+.Almiron{
+  background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/originalsnew-fw23-superstarxlg-launch-plp-statement-1-d_tcm221-1038892.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height:1000px;
+  width:100%;
+}
+.TexterE{
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  color:White;
+padding-top: 300px;
+}
+.TexterE button{
+  border: none;
+  background: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.TexterE button::after{
+  content: '';
+  background-color: white;
+  height:5px;
+  margin-top: 0px;
+  display: block;
+}
+.TexterE button:hover{
+  background-color: white;
+  color:black;
+  transition: .3s;
+}
+.narver{
+  font-size: 50px;
+  color:black;
+  text-decoration: none;
+}
+.narver:hover{
+  background-color: black;
+  color:White;
+  text-decoration: none;
 }

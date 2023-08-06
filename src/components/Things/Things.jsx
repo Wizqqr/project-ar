@@ -8,14 +8,46 @@ import karkas1 from '../pictures/karkas-1.jpg'
 import karkas2 from '../pictures/karkas-2.jpg'
 import karkas3 from '../pictures/karkas-3.jpg'
 import karkas4 from '../pictures/karkas-4.jpg'
-
+import Footer from '../Footer/Footer'
 const Things = () => {
     function viewDiv(){
         const btnSt=document.getElementsByClassName(`offer__carousel`)[0].style;
         if(btnSt.display==='none'){
-            btnSt.display='flex'
+            btnSt.display='inline-flex'
         }else{
             btnSt.display='none'
+        }
+      };
+      function viewDiv2(){
+        const btnSt2=document.getElementsByClassName(`offer__carouselBek`)[0].style;
+        if(btnSt2.display==='none'){
+            btnSt2.display='flex'
+        }else{
+            btnSt2.display='none'
+        }
+      };
+      function viewDiv3(){
+        const btnSt2=document.getElementsByClassName(`offer__carouselBek2`)[0].style;
+        if(btnSt2.display==='none'){
+            btnSt2.display='flex'
+        }else{
+            btnSt2.display='none'
+        }
+      };
+      function viewDiv4(){
+        const btnSt2=document.getElementsByClassName(`offer__carouselBek3`)[0].style;
+        if(btnSt2.display==='none'){
+            btnSt2.display='flex'
+        }else{
+            btnSt2.display='none'
+        }
+      };
+      function viewDiv5(){
+        const btnSt2=document.getElementsByClassName(`offer__carouselBek4`)[0].style;
+        if(btnSt2.display==='none'){
+            btnSt2.display='flex'
+        }else{
+            btnSt2.display='none'
         }
       };
     return (
@@ -75,14 +107,14 @@ const Things = () => {
                 <h1>Наши работы</h1>
                 </div>
                 <div className="ThingsDiv3Btn">
-                    <a onClick={viewDiv} className="tab">Каркасные Дома</a> 
-                    <a onClick={viewDiv}  className="tab">Бани</a>
-                    <a onClick={viewDiv}  className="tab">Беседки</a>
-                    <a onClick={viewDiv}  className="tab">Хоз.постройки</a>
-                    <a onClick={viewDiv} className="tab">Бытовки</a>
+                    <a className="tab">Каркасные Дома</a> 
+                    <a   className="tab">Бани</a>
+                    <a   className="tab">Беседки</a>
+                    <a   className="tab">Хоз.постройки</a>
+                    <a  className="tab">Бытовки</a>
                 </div>
                 <div className="ThingsDiv3Divs">
-                <div className="offer__carousel">
+                {/* <div className="offer__carousel">
         <div className="offer__item item-offer">
           <div className="item-offer__box">
             <img className="item-offer__img" src={karkas1} alt="" />
@@ -176,23 +208,14 @@ const Things = () => {
               </div>
             </div>
           </div>
-        </div>
-        
+        </div>       
       </div>
-     
-      <div className="CarouselDom">
-   
-      {/* <Carousel fade>
-      <Carousel.Item>
-        <img
-          className="blockerr"
-          src={image1}
-          alt="First slide"
-        />
-               <div className="item-offer__box">
-            <img className="item-offer__img" src="images/offer__carousel/karkas-1.jpg" alt="" />
+      <div className="offer__carouselBek">
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas1} alt="" />
             <div className="item-offer__descr">
-              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <h5 className="item-offer__title">Каркаснй дом с балконом LK-2</h5>
               <p className="item-offer__text item-offer__text_size">
                 <span>Размер:</span><span>4х6
                   м</span>
@@ -209,19 +232,86 @@ const Things = () => {
               <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
             </div>
           </div>
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="blockerr"
-          src={image1}
-          alt="Second slide"
-        />
-       <div className="item-offer__box">
-            <img className="item-offer__img" src="images/offer__carousel/karkas-1.jpg" alt="" />
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas2} alt="" />
             <div className="item-offer__descr">
               <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$13 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas3} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$14 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas4} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балкоом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$15 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+      <div className="offer__carouselBek2">
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas1} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркаснй дом с балконом LK-2</h5>
               <p className="item-offer__text item-offer__text_size">
                 <span>Размер:</span><span>4х6
                   м</span>
@@ -238,28 +328,276 @@ const Things = () => {
               <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
             </div>
           </div>
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="blockerr"
-          src={image1}
-          alt={Sizer}
-        />
-      
-        <Carousel.Caption>
-        
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel> */}
-    </div>
-                {/* <div class="block_with_text2">Lorem ipffsum dolor sit amet</div>
-                <div class="block_with_text3">Lorem ipsum dolor sit amet</div>
-                <div class="block_with_text4">Lorem ipsum dolor sit amet</div>
-                <div class="block_with_text5">Lorem ipsum dolor sit amet</div> */}
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas2} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$13 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas3} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$14 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas4} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балкоом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$15 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+      <div className="offer__carouselBek3">
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas1} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркаснй дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <p className="item-offer__text item-offer__text_price"><strong>$12 300</strong>
+              </p>
+              <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas2} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$13 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas3} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$14 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas4} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балкоом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$15 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+      <div className="offer__carouselBek4">
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas1} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркаснй дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <p className="item-offer__text item-offer__text_price"><strong>$12 300</strong>
+              </p>
+              <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas2} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$13 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas3} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балконом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$14 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="offer__item item-offer">
+          <div className="item-offer__box">
+            <img className="item-offer__img" src={karkas4} alt="" />
+            <div className="item-offer__descr">
+              <h5 className="item-offer__title">Каркасный дом с балкоом LK-2</h5>
+              <p className="item-offer__text item-offer__text_size">
+                <span>Размер:</span><span>4х6
+                  м</span>
+              </p>
+              <p className="item-offer__text item-offer__text_area">
+                <span>Площадь:</span><span>34.8
+                  м2</span>
+              </p>
+              <p className="item-offer__text item-offer__text_rooms"><span>Количество
+                  комнат:</span><span>3 шт</span>
+              </p>
+              <div className="item-offer__wrap-bot">
+                <p className="item-offer__text item-offer__text_price"><strong>$15 300</strong>
+                </p>
+                <a href="#popup" className="item-offer__btn popup">Оформить заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div> */}
                 </div>
+
             </div>
+            <Footer/>
 </div>
     ); 
 }

@@ -11,8 +11,26 @@ background-size: 100%;
 height:400px;
 width:500px;
 }
-.italicMen:nth-child(2){
+.italicMen2{
     background-image: url(../pictures/1232.jpg);
+background-size: 100%;
+height:400px;
+width:500px;
+}
+.italicMen3{
+    background-image: url(../pictures/1233.jpg);
+background-size: 100%;
+height:400px;
+width:500px;
+}
+.italicMen4{
+    background-image: url(../pictures/1234.jpg);
+background-size: 100%;
+height:400px;
+width:500px;
+}
+.italicMen5{
+    background-image: url(../pictures/1231.jpg);
 background-size: 100%;
 height:400px;
 width:500px;
