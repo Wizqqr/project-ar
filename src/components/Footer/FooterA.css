@@ -1,0 +1,36 @@
+.FooterBekChan{
+    display: table;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.FooterEndDiv7{
+    background-color: rgb(44, 43, 43);
+    width: 200%;
+    height: 200px;
+    column-gap: 50px;
+    background-size: cover;
+    background-size: 100%;
+    margin-left: -35em;
+}
+.FooterEndOver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    column-gap: 50px;
+}
+.FooterEndOver Li{
+    color:White;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 56px;
+}
+.FooterEndDiv7 p{
+    text-align: center  ;
+    color:white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+}

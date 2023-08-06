@@ -1,10 +1,24 @@
+.SignUp{
+  background-image: url(../pictures//2110.w026.n002.961B.p1.961.jpg);
+  width: 100%;height: 68.5em;
+  background-size:118%;
+  background-repeat: no-repeat;
+  background-position:center top;
+  
+}
 .form {
-    display: flex;
-    flex-direction: column;
+  padding: 50px;
+  position: fixed; top: 40%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    display: table;
+    margin: 0 auto;
     gap: 10px;
     background-color: #ffffff;
-    padding: 30px;
-    width: 450px;
+    padding: 80px;
+    width: 650px;
+    /* backdrop-filter: blur(10px); */
     border-radius: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
@@ -38,6 +52,7 @@
     border: none;
     width: 100%;
     height: 100%;
+    column-gap: 10px;
   }
   
   .input:focus {
@@ -53,6 +68,7 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    font-size: 24px;
     justify-content: space-between;
   }
   
@@ -60,19 +76,20 @@
     font-size: 14px;
     color: black;
     font-weight: 400;
+    column-gap: 15px;
   }
   
   .span {
-    font-size: 14px;
+    font-size: 24px;
     margin-left: 5px;
     color: #2d79f3;
     font-weight: 500;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   
   .button-submit {
     margin: 20px 0 10px 0;
-    background-color: #151717;
+    background-color: orange;
     border: none;
     color: white;
     font-size: 15px;
@@ -86,7 +103,7 @@
   .p {
     text-align: center;
     color: black;
-    font-size: 14px;
+    font-size: 24px;
     margin: 5px 0;
   }
   
@@ -109,6 +126,75 @@
   .btn:hover {
     border: 1px solid #2d79f3;
     ;
+  }
+  .leaves-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Style for the individual leaves */
+  .leaf {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #9ac23c00;
+    border-radius: 50%;
+    animation: falling 8s ease-in-out infinite;
+  }
+
+  /* Keyframe animation for the falling leaves */
+  @keyframes falling {
+    0% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(5500%);
+    }
+  }
+
+  /* Position each leaf randomly within the container */
+  .leaf:nth-child(1) {
+    left: 5%;
+    top: -5%;
+    animation-delay: 0.5s;
+  }
+  .leaf:nth-child(2) {
+    left: 25%;
+    top: -10%;
+    animation-delay: 2s;
+  }
+  .leaf:nth-child(3) {
+    left: 45%;
+    top: -15%;
+    animation-delay: 3.5s;
+  }
+  .leaf:nth-child(4) {
+    left: 65%;
+    top: -20%;
+    animation-delay: 1s;
+  }
+  .leaf:nth-child(5) {
+    left: 85%;
+    top: -25%;
+    animation-delay: 2.5s;
+  }
+  .leaf:nth-child(6) {
+    left: 95%;
+    top: -15%;
+    animation-delay: 2.5s;
+  }
+
+  .leaf:nth-child(7) {
+    left: 55%;
+    top: -15%;
+    animation-delay: 1.5s;
+  }
+
+  .leaf:nth-child(8) {
+    left: 20%;
+    top: -15%;
+    animation-delay: 1.0s;
   }
   
       

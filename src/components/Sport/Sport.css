@@ -1,4 +1,10 @@
-.Sport img{
+@media screen and (max-width: 600px) {
+  .Sport {
+    clear: both;
+    font-size: 1.3em;
+  }
+}
+.SportImg img{
     height:250px;
     width:350px;
     transition: 1s;
@@ -7,10 +13,19 @@
 /* .Sport img:hover{
     transform: scale(1.1); 
 } */
+
 .Sport{
-  display: table;
+  /* display: table;
   margin: 0 auto;
-  max-width: 100px;
+  min-width: none;
+  max-width: 00px; */
+  display: table;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 300px;
+  min-width: 100px;
+  width:500px;
 }
 .SportH1Start{
  font-family: math;
@@ -35,7 +50,7 @@ justify-content: center;
 align-items: center;
 margin-left: -58em;
 }
-.Sport Button{
+.SportImg Button{
     background-color: #555;
     color: white;
     font-size:26px;
@@ -49,7 +64,7 @@ margin-left: -58em;
     transform: translate(-300%, 0%);
     -ms-transform: translate(-150%, -50%);
 }
-.Sport Button:hover{
+.SportImg Button:hover{
     background-color: black;
      
 }
@@ -95,16 +110,20 @@ margin-left: -58em;
     font-size: 22PX;
     
 }
+.Footer{
+  margin-top: 80px;
+}
 .FooterDiv3H1{
     font-size: 32px;
 }
 .FooterDiv3{
   display: table;
   margin: 0 auto;
+  margin-top: 50px;
 }
-.button {
-    display: flex;
-  }
+.button{
+  display:flex;
+}
   
   .box {
     width: 75px;
@@ -112,7 +131,7 @@ margin-left: -58em;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     transition: all .8s;
@@ -158,8 +177,8 @@ margin-left: -58em;
     content: 'N';
   }
   .FooterDiv4 h1{
-    font-size: 35px;
-
+    font-size: 50px;
+    font-weight: 600;
   }
   .FooterDiv1{
     display: flex;
@@ -172,8 +191,13 @@ margin-left: -58em;
   .button:hover .box:before {
     transform: translateY(0);
   }
+  .buttonbek{
+    border: none;
+    background: none;
+
+  }
   .FooterDiv4{
-    background-color: yellow;
+    background-color: rgb(240, 240, 30);
     width:200%;
     height:150px;
     display: flex;
@@ -182,16 +206,22 @@ margin-left: -58em;
     column-gap: 50px;
     background-size: cover;
     background-size: 100%;
-    margin-left:-40em ;
+    margin-left: -35em;
   }
   .FooterDiv5{
-    display: flex;
+    /* display: flex;
     justify-content:center;
-    align-items: center;
+    align-items: center; */
+    display: inline-flex;
+    justify-content: center;
     column-gap: 90px;
+    /* margin: 0 auto; */
+    margin-top: 50px;
+    padding-left: 15em;
   }
   .FooterDiv5H1{
     font-size: 27px;
+    font-weight: 700;
   }
   .FooterDiv5Li{
     margin-top: 10px;
@@ -203,7 +233,7 @@ margin-left: -58em;
   }
   .card img{
     height:600px;
-    width:580px;
+    width:603.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,4 +283,18 @@ margin-left: -58em;
 .cardofdown p{
   font-size: 20px;
   color:rgb(40, 39, 39);
+}
+.ToMain{
+  display: flex;
+  background: none;
+  column-gap: 20px;
+  border: none;
+}
+.ToMain img{
+  height:50px;
+  width:50px;
+  margin-top:2px;
+}
+.ToMainClass{
+  font-size: 35px;
 }

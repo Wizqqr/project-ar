@@ -1,0 +1,566 @@
+
+.HomeHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120px
+}
+.HomeNav{
+    height:60px;
+    display: flex;
+    column-gap:     50px;
+}
+.HomeNav a{
+    text-decoration: none;
+    color:black;
+}
+.HomeNav a:hover{
+    text-decoration: none;
+    color:black;
+}
+.HomeNav Li{
+    margin-top:0px;
+}
+a{
+    text-decoration-color:white ;
+}
+.gta{
+    text-decoration-color:white ;
+    margin-top: 20px;
+}
+.HomeLi{
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:26px;
+    color:black;
+    text-decoration: none;
+    border-color: white;;
+    list-style-type: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.HomeLi:hover::after{
+    content: '';
+    background-color: black;
+    height: 3px;
+    display: block;
+}
+.HomeNavLi{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color:rgb(59, 58, 58);
+}
+.HomeNavLi:hover::after{
+    content: '';
+    background-color: black;
+    height: 3px;
+    display: block;
+}
+.MainFirstP{
+    max-width: 900px;
+}
+.MainFirst{
+display: grid;
+justify-content: center;
+align-items: center;   width: 10em;
+    background-position: center;
+    background-image: url(../pictures//1625853973_28-kartinkin-com-p-oboi-minimalizm-ucheba-krasivie-31.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:100%;
+    height:1200px;
+    /* box-shadow: 0px 50px 350px 150px  rgba(237,237,227); */
+    
+}
+.MainFirst h1{
+    font-size: 4em;
+}
+.MainFirst p{
+    font-size: 1.2em;
+}
+.MainFirst img{
+    height:50px;
+    width:50px;
+}
+.MainFirstButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+.MainFirstButton{
+    border: none;
+    column-gap: 50px;
+    box-shadow: 10px 10px 10px 9px rgba(29, 31, 30, 0.2);
+}
+.MainFirstButtons{
+    display: flex;
+    column-gap: 250px;
+    margin-bottom:10em  ;
+}
+.MainFirstButton {
+    margin-top: 20px;
+}
+.MainFirstButton p{
+    margin-top: 20px;
+    font-size: 25px;
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    transition: 0.5s;
+    margin: 0.8em;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+* {
+  box-sizing: border-box;
+}
+.cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.cta:focus {
+   outline: none; 
+}
+
+.cta:hover {
+    color:white;    
+    text-decoration: none;
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #FBC638;
+}
+
+.cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+.HomeHead{
+    transition: .3s;
+}
+.cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FBC638;
+    }
+    100% {
+        fill: white;
+    }
+}
+.wrapper{
+    border: none;
+    background: none;
+}
+.MainOfHome{
+    display: flex ;
+    justify-content: center;
+    
+}
+.CardsOfMain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 80px;
+    margin-top: 150px;
+}
+.Cardochka{
+    background-color: #ecebe9;
+    width:650px;
+    height:400px;
+}
+.Cardochka img{
+    margin-left: 200px;
+}
+.Cardochka a{
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+    --b: 0.1em;  
+    --c: #1095c1; 
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.CardochkaText{
+    margin-left: 230px;
+    margin-top: 35px;
+}
+.Cardochka a:hover{
+    --_p: 100%;
+    --_s: .3s;
+}
+.CardsJake{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+    column-gap: 80px;
+}
+.CartMenImg img{
+    height:800px;
+    width:650px;
+}
+.CartMenText h1{
+    font-size: 27px;
+    margin-top: 40px;
+    color: black;
+    font-weight: 700;
+}
+.CartMenText button{
+    background: none;
+    color:black;
+    font-size: 28.5px;
+    font-weight: 700;
+    height:50px;
+    width:200px;
+    border: none;
+    margin-left: -20px;
+    --b: 0.1em;  
+    --c: #1095c1; 
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.CartMenText button:hover{
+    /* background-color: black;
+    color:white; */
+    --_p: 100%;
+    --_s: .3s;
+}
+.MainOfStarting{
+    background-color: rgba(237,237,227);
+    width:100%;
+    height:500px;
+    text-align: center;
+}
+.Textering{
+    margin-top: 00px;
+}
+.Textering h1{
+    padding-top:90px ;
+}
+.MainOfStarting button{
+    color:black;
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ural{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+   
+}
+.Ural p{
+    color:white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: monospace;
+    margin-top: 14px;
+}
+.HomeHeadNum2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.HomeHeadNum2 p{
+    font-family: monospace;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.HomeHeadNum2 button{
+    background: none;
+    border: none;
+    color:black;
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.HomeHeadNum2 button:after{
+    content: '';
+    background-color: black;
+    height: 1px;
+    display: block;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+    left: calc(var(--gl-spacing-0400) * -1);
+    width: calc(100% + var(--gl-spacing-0400) * 2);
+    margin-top: -25px;
+}
+.HeaderDivNum1:hover .dropdown-content{
+    display:flex;
+    width:100%;
+    height:600px;   
+    justify-content: center;
+    align-items: center;
+    float: left;
+    position:absolute;
+    left: 0;
+    top:178px;
+}
+.dropdown-contentNav h1{
+    color:black;
+    font-size: 28px;
+    font-family: monospace;
+    font-weight: 700;
+}
+.dropdown-contentNav li{
+    color:rgb(55, 53, 53);
+}
+.dropdown-content{
+    font-family: AdihausDIN;
+    column-gap: 100px;
+}
+.Bishkek{
+    display: flex;
+    column-gap: 150px;
+}
+.MainHomeCards{
+    margin-top:200px;
+}
+.Messi{
+    border: 1px solid black;
+    border: top 1   em;
+    border-top: 10px;
+    
+    margin-top: 100px;
+}
+.Messi img{
+    height:1300px;
+    width:1300px;
+    border-radius: 20px 0px 0px 20px;
+}
+.MessiDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MessiDivInDiv{
+        background-color: rgb(227, 111, 204);
+    height: 1300px;
+    max-width: 1200px;
+    color:white;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 10px 10px 10xp 10px violet;
+}
+.MessiText{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.MessiText p{
+    font-size: 35px;
+    margin-top: 30px;
+}
+.Sizes{
+    display: flex;
+    column-gap: 10px;
+}
+.Sizes button{
+    background: none;
+    border:1px solid wheat ;
+    color:white;
+}
+.Sizes button:hover{
+    height:80px;
+    width:80px;
+}
+.Buying{
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+    font-size: 40px;
+    border-radius: 2px;
+    margin-top: 40px;
+    height:70px;
+    width:400px;
+    font-weight: 700;
+    font-family: monospace;
+}
+.ButIm{
+    border: none;
+    background: none;
+    font-size: 35px;
+    color:blue;
+}
+.ButIm::after{
+    content:'';
+    background-color: blue;
+    display: block;
+ height: 1px;   
+}
+.ButIm:hover{
+    font-size: 38px;
+    transition: .3s;
+}
+.CardOfImg img{
+    height:600px;
+    width:600px;
+}
+.Ronaldo{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+}
+.CardOfText h1{
+    font-size: 30px;
+    color:black;
+    font-weight: 700;
+    text-align: center;
+}
+.CardOfText p {
+    margin: 0;
+}
+.Foot h1{
+    text-align: center;
+    color:black;
+    font-weight: 700;
+    font-family: monospace;
+}
+.Foot{
+    margin-top: 100px;
+}
+.Ronaldo{
+    margin-top: 100px;
+}
+hr{
+    background-color:black;
+}
+.FooterEndOfHome{
+    display: table;
+    margin: 0 auto;
+}
+.FooterEndOfHome a{
+    font-size: 70px;
+    color:black;
+    font-weight: 700;
+}
+.FooterEndOfHome a::after{
+    content: '';
+    background-color: black;
+    height: 6px;
+    display: block;
+}
+.FooterEndOfHome a:hover{
+    color:black;
+    text-decoration: none;
+}
+.FooterEndOfHome a:hover::after{
+    height:10px;
+}
+.FooterEndOfHomeDiv{
+    display: flex;
+    column-gap: 840px;
+    margin-top: 70px;
+}
+.FooterFinallyEnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    margin-top: 50px;
+    background-color: rgba(237,237,227);
+    column-gap: 50px;
+}
+.FooterFinallyEnd p{
+    margin: 5px;
+}
+.FooterFinallyEnd h1{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+.FooterEndDivs2{
+    margin-top: 70px;
+}
+.Karkas{
+
+    margin-top: 170px;
+}
+

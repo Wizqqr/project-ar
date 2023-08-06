@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'AdihausDIN';
+  src: local('AdihausDIN'),
+    url('./components/fonts/AdihausDIN/adihausdin_cn.ttf') format('truetype');
+  font-weight: bold;
+}
+.font-dancing-script {
+  font-family: "AdihausDIN";
+}

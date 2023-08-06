@@ -8,7 +8,7 @@ const Cart=(props)=>{
               {/* <div class="container-fluid">
     <div class="background">
        <div class="cube"></div>
-       <div class="cube"></div>
+       <аdiv class="cube"></div>
        <div class="cube"></div>
        <div class="cube"></div>
       <div class="cube"></div> */}

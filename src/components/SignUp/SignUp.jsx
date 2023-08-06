@@ -1,19 +1,100 @@
-import React from 'react';
+import {React, useState} from 'react';
 import '../SignUp/SignUp.css'
-
+import leaf from '../pictures/leave2.png'
+import leaf2 from '../pictures/leave1.png'
+import {Link} from 'react-router-dom'
+import Home from '../Home/Home'
 const SignUp = () => {
+ 
     return (
-        <div>
+      
+        <div className='SignUp'>
+      <a href='../Home/Home.jsx' className="toMain">ToMain </a>
+   <div className="leaves-container">
+  {/* Add 20 leaves to the container */}
+  <div className="leaf">
+    <img src={leaf} />
+  </div>
+  <div className="leaf">
+  <img src={leaf} />
+  </div>
+  <div className="leaf">
+  <img src={leaf} />
+  </div>
+  <div className="leaf">
+  <img src={leaf} />
+  </div>
+  <br />
+  <div className="leaf">
+    <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} />
+  </div>
+  <div className="leaf">
+  <img src={leaf2} /> 
+  </div>
+</div>
+
+          <div className="Signer">
             <form class="form">
     <div class="flex-column">
-      <label>Email </label></div>
+    <label className='Email' >Email </label></div>
       <div class="inputForm">
         <svg xmlns="#" width="20" viewBox="0 0 32 32" height="20"><g data-name="Layer 3" id="Layer_3"><path d="m30.853 13.87a15 15 0 0 0 -29.729 4.082 15.1 15.1 0 0 0 12.876 12.918 15.6 15.6 0 0 0 2.016.13 14.85 14.85 0 0 0 7.715-2.145 1 1 0 1 0 -1.031-1.711 13.007 13.007 0 1 1 5.458-6.529 2.149 2.149 0 0 1 -4.158-.759v-10.856a1 1 0 0 0 -2 0v1.726a8 8 0 1 0 .2 10.325 4.135 4.135 0 0 0 7.83.274 15.2 15.2 0 0 0 .823-7.455zm-14.853 8.13a6 6 0 1 1 6-6 6.006 6.006 0 0 1 -6 6z"></path></g></svg>
         <input placeholder="Enter your Email" class="input" type="text"/>
       </div>
     
     <div class="flex-column">
-      <label>Password </label></div>
+      <label className='Password'>Password </label></div>
       <div class="inputForm">
         <svg xmlns="#" width="20" viewBox="-64 0 512 512" height="20"><path d="m336 512h-288c-26.453125 0-48-21.523438-48-48v-224c0-26.476562 21.546875-48 48-48h288c26.453125 0 48 21.523438 48 48v224c0 26.476562-21.546875 48-48 48zm-288-288c-8.8125 0-16 7.167969-16 16v224c0 8.832031 7.1875 16 16 16h288c8.8125 0 16-7.167969 16-16v-224c0-8.832031-7.1875-16-16-16zm0 0"></path><path d="m304 224c-8.832031 0-16-7.167969-16-16v-80c0-52.929688-43.070312-96-96-96s-96 43.070312-96 96v80c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16v-80c0-70.59375 57.40625-128 128-128s128 57.40625 128 128v80c0 8.832031-7.167969 16-16 16zm0 0"></path></svg>        
         <input placeholder="Enter your Password" class="input" type="password"/>
@@ -22,17 +103,17 @@ const SignUp = () => {
     <div class="flex-row">
       <div>
       <input type="radio"/>
-      <label>Remember me </label>
+      <label className=''>Remember me </label>
       </div>
       <span class="span">Forgot password?</span>
     </div>
-    <button class="button-submit">Sign In</button>
+   <Link to='/home'><button class="button-submit">Sign In</button></Link> 
     <p class="p">Don't have an account? <span class="span">Sign Up</span>
 
     </p><p class="p line">Or With</p>
 
-    {/* <div class="flex-row"> */}
-      {/* <button class="btn google">
+     {/* <div class="flex-row"> 
+       <button class="btn google">
     
 <path d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256
 	c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456
@@ -55,10 +136,12 @@ const SignUp = () => {
 
         Apple 
         
-    </button></div>*/}
-</form>
+    </button></div> */}
+ </form>
+</div>
         </div>
     );
+  
 }
 
-export default SignUp;
+export default SignUp; 

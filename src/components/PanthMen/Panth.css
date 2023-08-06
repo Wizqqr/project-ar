@@ -1,0 +1,62 @@
+.Panth{
+    display: table;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 300px;
+    min-width: 100px;
+    width: 500px;
+}
+.HeadOfPanth p{
+    margin: 0 auto;
+}
+.HeadOfPanth{
+    margin-left: 15px;
+}
+.UralPanth{
+    background-color: black;
+    color:White;
+    text-align: center;
+    height:70px;
+    width:200%;
+margin-left: -50em;
+}
+.UralPanth p{ 
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: monospace;
+}
+.HeadOfPanth p{
+    transform: skew(-15deg);
+}
+.HeadOfPanth h1{
+    transform: skew(-15deg);
+
+}
+.NewHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NewHeadNav{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 30px;
+    column-gap: 50px;
+}
+.NewHeadNav a{
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 35px;
+    color:rgb(71, 70, 70);
+}
+.NewHeadNav a:hover{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+}
+

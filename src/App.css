@@ -1,5 +1,11 @@
+h1{
+  text-decoration: none;
+}
+p{
+  
+    text-decoration: none;
 
-
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

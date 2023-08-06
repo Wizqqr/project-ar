@@ -1,10 +1,13 @@
 import React from 'react';
 import '../Rest/Rest.css'
 import Cruises from '../Cruises/Cruises.jsx'
+import leaf from '../pictures/leave2.png'
+import leaf2 from '../pictures/leave1.png'
 const Rest = (props) => {
     const {image,title,btn,price}=props
     return (
         <div className='Rest'>
+             
      <div class="container-fluid">
     <div class="background">
        <div class="cube"></div>
@@ -15,7 +18,7 @@ const Rest = (props) => {
       <header className="HeaderRest">
         <nav className="HeaderRestIcon">
             <h1 className="HeaderRestIconH1">
-                The Sill
+                Ronix
             </h1>
         </nav>
         <nav className="HeaderRestNav">

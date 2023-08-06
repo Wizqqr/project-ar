@@ -1,0 +1,19 @@
+.container-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+
+}
+.italicMen{
+background-image: url(../pictures/1231.jpg);
+background-size: 100%;
+height:400px;
+width:500px;
+}
+.italicMen:nth-child(2){
+    background-image: url(../pictures/1232.jpg);
+background-size: 100%;
+height:400px;
+width:500px;
+}
