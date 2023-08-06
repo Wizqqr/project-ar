@@ -32,6 +32,7 @@
  transform: skew(-15deg);
  margin-left: 0.3em;
  font-weight: 500;
+ margin-top: 50px;
 }
 .SportPStart{
     font-family: math;
@@ -227,13 +228,21 @@ margin-left: -58em;
     margin-top: 10px;
     color:rgb(30, 30, 30);
   }
+  
   .card:hover{
     border-color: black;
-    height:1050px
+  }
+  .korey{
+    margin-right: 55em;
+    display: flex;
+    column-gap: 100px;
+  }
+  .Pyshka{
+    margin-left: 15em;
   }
   .card img{
     height:600px;
-    width:603.5px;
+    /* width: 600px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,6 +298,13 @@ margin-left: -58em;
   background: none;
   column-gap: 20px;
   border: none;
+  padding-left: -10em;
+}
+a{
+  text-decoration: none;
+}
+.ToMainClass:hover{
+  text-decoration: none;
 }
 .ToMain img{
   height:50px;

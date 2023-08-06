@@ -13,6 +13,7 @@
 .HomeNav a{
     text-decoration: none;
     color:black;
+    
 }
 .HomeNav a:hover{
     text-decoration: none;
@@ -58,6 +59,8 @@ a{
 }
 .MainFirstP{
     max-width: 900px;
+    color:black;
+    font-size: 31px;
 }
 .MainFirst{
 display: grid;
@@ -74,9 +77,6 @@ align-items: center;   width: 10em;
 }
 .MainFirst h1{
     font-size: 4em;
-}
-.MainFirst p{
-    font-size: 1.2em;
 }
 .MainFirst img{
     height:50px;
@@ -253,7 +253,7 @@ path.two {
 .Cardochka a:hover{
     --_p: 100%;
     --_s: .3s;
-}
+}.Ural p{margin-top: 10px;}
 .CardsJake{
     display: flex;
     justify-content:center;
@@ -308,13 +308,17 @@ path.two {
 }
 .Textering h1{
     padding-top:90px ;
+    font-size: 50px;
+}
+.Textering p{
+    font-size: 25px;
 }
 .MainOfStarting button{
     color:black;
     background: none;
     border: none;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 6a00;
     font-family: Arial, Helvetica, sans-serif;
 }
 .Ural{
@@ -331,7 +335,7 @@ path.two {
     font-size: 30px;
     padding-top: 20px;
     font-family: monospace;
-    margin-top: 14px;
+    margin-top: -3px;
 }
 .HomeHeadNum2{
     display: flex;
@@ -350,7 +354,7 @@ path.two {
     color:black;
     font-size: 25px;
     font-family: monospace;
-    margin-top: -5px;
+    margin-top: 5px;
     margin-left: 10px;
 }
 .HomeHeadNum2 button:after{
@@ -440,14 +444,23 @@ path.two {
     display: flex;
     column-gap: 10px;
 }
+.MessiText h1{
+    font-size: 50px;
+}
 .Sizes button{
     background: none;
     border:1px solid wheat ;
     color:white;
+    height: 100px;
+    width:150px;
+    font-size: 40px;
 }
 .Sizes button:hover{
     height:80px;
     width:80px;
+}
+.Foot h1{
+    font-size: 45px;
 }
 .Buying{
     background-color: black;
@@ -492,6 +505,7 @@ path.two {
     color:black;
     font-weight: 700;
     text-align: center;
+    margin-left: -70px;
 }
 .CardOfText p {
     margin: 0;
@@ -513,6 +527,7 @@ hr{
 }
 .FooterEndOfHome{
     display: table;
+    margin-left: 30px;
     margin: 0 auto;
 }
 .FooterEndOfHome a{
@@ -533,9 +548,10 @@ hr{
 .FooterEndOfHome a:hover::after{
     height:10px;
 }
+.FooterEndOfHome h1{font-size: 45px;}
 .FooterEndOfHomeDiv{
     display: flex;
-    column-gap: 840px;
+    column-gap: 820px;
     margin-top: 70px;
 }
 .FooterFinallyEnd{
@@ -563,4 +579,9 @@ hr{
 
     margin-top: 170px;
 }
-
+p{
+    font-size: 25px;
+}
+.CartMenText p{
+    font-size: 25px;
+}

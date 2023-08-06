@@ -2,6 +2,7 @@
     display: table;
     margin: 0 auto;
     margin-top: -50px;
+    /* margin-left: 30em; */
 }
 .FooterEndDiv7{
     background-color: rgb(44, 43, 43);
@@ -10,7 +11,7 @@
     column-gap: 50px;
     background-size: cover;
     background-size: 100%;
-    margin-left: -35em;
+    margin-left: -50em;
 }
 .FooterEndOver{
     display: flex;
@@ -33,4 +34,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     margin-top: 40px;
+}
+.Uzker{
+    margin-right: 5em;
 }

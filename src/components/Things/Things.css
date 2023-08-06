@@ -22,12 +22,12 @@ background-color: white;; */
 }
 .Likerki{
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 0px;
   color: rgb(49, 49, 49);
 }
 .ThingsDiv1{
   text-align: center;
-  height:60em;
+  height:80em;
   background-image: url(../pictures/bg-head.jpg);
   background-repeat: no-repeat;
   background-size: 130%;

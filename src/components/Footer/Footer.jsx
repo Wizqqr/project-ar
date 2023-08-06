@@ -5,6 +5,7 @@ import '../Footer/FooterA.css'
 const Footer = () => {
     return (
         <div className='FooterBekChan'>
+            <div className="Uzker">
             <div className="FooterDiv4">
                 <h1 className="FooterDiv4H1">JOIN OUR ADICLUB & GET 15% OFF</h1>
                <Link to='/sign'><button className="buttonbek">
@@ -18,6 +19,7 @@ const Footer = () => {
     </div>
     </button>
     </Link> 
+    </div>
     </div>
             <div className="FooterDiv5">
                 <nav className="FooterDiv5Nav">

@@ -858,7 +858,6 @@ A PORTION OF THE SALE OF THESE ITEMS WILL BE DONATED IN SUPPORT OF THE FIGHT AGA
                 <div className="MessiDivInDiv">
                   <div className='MessiText'>
                   <h1>MESSI T-SHIRT INTER MIAMI</h1>
-                  <p>100$</p>
                   <p>After months — years, even — of speculation, Messi finally revealed his decision to join a Miami franchise that has been led by another global soccer icon, David Beckham, since its inception but has yet to make any real splashes on the field.</p>
                   <p>SIZES</p>
                   <div className="Sizes">

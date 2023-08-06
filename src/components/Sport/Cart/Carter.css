@@ -7,6 +7,16 @@
 }
 .proji{
     margin-left: 15px;   
+    
+}
+.JakartaText h2{
+    font-size: 45px;
+}
+.JakartaText p{
+    font-size: 25px;
+}
+.Dembele p{
+    font-size: 25px;
 }
 .proji::after{
     content: '';
@@ -15,8 +25,13 @@
     background-color: black;
     margin-top: -20px;
 }
+.CarterCard p{
+    font-size: 25px;
+}
 .CarterCard:hover{
     border: 1px solid black;
+}
+.CarterCard:hover .CarterCard img{
     border-radius: 20px;
 }
 .Carter-body{
@@ -60,7 +75,7 @@
 }
 .Jakarta img{
     height:1000px;
-    width:3600px;
+    width:2800px;
 }
 .Jakarta2{
     background-color: rgb(0, 132, 149);
@@ -147,4 +162,7 @@ width:900px;
     height:500px;
     width:700px;
     border-radius: 20px 20px 0px 0px;
+}
+.carter-title{
+    font-size: 35px;
 }

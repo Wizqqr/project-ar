@@ -18,38 +18,6 @@ const Things = () => {
             btnSt.display='none'
         }
       };
-      //    function viewDiv2(){
-      //   const btnSt2=document.getElementsByClassName(`block_with_text2`)[0].style;
-      //   if(btnSt2.display==='none'){
-      //       btnSt2.display='block'
-      //   }else{
-      //       btnSt2.display='none'
-      //   }
-      // };
-      // function viewDiv3(){
-      //   const btnSt3=document.getElementsByClassName(`block_with_text3`)[0].style;
-      //   if(btnSt3.display==='none'){
-      //       btnSt3.display='block'
-      //   }else{
-      //       btnSt3.display='none'
-      //   }
-      // };
-      // function viewDiv4(){
-      //   const btnSt4=document.getElementsByClassName(`block_with_text4`)[0].style;
-      //   if(btnSt4.display==='none'){
-      //       btnSt4.display='block'
-      //   }else{
-      //       btnSt4.display='none'
-      //   }
-      // };
-      // function viewDiv5(){
-      //   const btnSt5=document.getElementsByClassName(`block_with_text5`)[0].style;
-      //   if(btnSt5.display==='none'){
-      //       btnSt5.display='block'
-      //   }else{
-      //       btnSt5.display='none'
-      //   }
-      // };
     return (
       
         <div className='Things'>

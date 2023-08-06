@@ -26,7 +26,7 @@ const Carter = () => {
   const handleClose4 = () => setShow4(false);
   const handleShow4 = () => setShow4(true);
     return (
-        <div>
+        <div className='Dembele'>
               <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
         <Modal.Title>Adidas ultraboost modal C-1</Modal.Title>

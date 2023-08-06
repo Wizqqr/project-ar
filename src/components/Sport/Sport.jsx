@@ -29,7 +29,7 @@ import ToMain from '../pictures/arrowstar.png'
 import './Sport'
 import '../Sport/Sport.css'
 import {Link} from 'react-router-dom'
-
+import Footer from '../Footer//Footer'
 const Sport = () => {
   // $('#myModal').on('shown.bs.modal', function () {
   //   $('#myInput').trigger('focus')
@@ -37,83 +37,28 @@ const Sport = () => {
     return (
 
         <div className="Sport">
-          <button
-    type="button"
-    className="btn btn-primary"
-    data-toggle="modal"
-    data-target="#exampleModalCenter"
-  >
-    Запустить модальное окно
-  </button>
-  {/* Modal */}
-  <div
-    className="modal fade"
-    id="exampleModalCenter"
-    tabIndex={-1}
-    role="dialog"
-    aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true"
-  >
-    <div className="modal-dialog modal-dialog-centered" role="document">
-      <div className="modal-content">
-        <div className="modal-header">
-          <h5 className="modal-title" id="exampleModalLongTitle">
-            Modal title
-          </h5>
-          <button
-            type="button"
-            className="close"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div className="modal-body">...</div>
-        <div className="modal-footer">
-          <button
-            type="button"
-            className="btn btn-secondary"
-            data-dismiss="modal"
-          >
-            Close
-          </button>
-          <button type="button" className="btn btn-primary">
-            Save changes
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
            <Link to='/home'><button className="ToMain">
             <img src={ToMain} alt="" />
-            <p className="ToMainClass">Главная</p>       
+            <a className="ToMainClass">Главная</a>       
            </button>
            </Link>
             <h1 className="SportH1Start">NEW MEN'S ULTRABOOST 23 SHOES: ULTRABOOST LIGHT</h1>
             <p className="SportPStart">ULTRABOOST RUNNING & LIFESTYLE SHOES</p>
-            <div className="SportImg"> <img src={StartB1} alt="" />
-            <img src={StartB2} alt="" />
-            <img src={StartB3} alt="" />
-            <button className="ButtonMen">Men</button>
-<button className="ButtonWomen">Women</button>
-<button className="ButtonCHild">Child</button>
-</div>
-<div className="NavbarSport">
-    <nav className="NavSport">
-        <li className="SportLi">Adicolor Clothing</li>
-        <li className="SportLi">Adiletter Sliddes</li>
-        <li className="SportLi">Five Ten</li>
-        <li className="SportLi">Gazello</li>
-        <li className="SportLi">Originals</li>
-        <li className="SportLi">Samba</li>
-        <li className="SportLi">Samba</li>
-        <li className="SportLi">Samba</li>
-        <li className="SportLi">Samba</li>
-        <li className="SportLi">Samba</li>
-        <button className="SportBtn">FILTER & SORT</button>
-    </nav>
-</div>
+
+            <header className="NewHead">
+                <nav className="NewHeadNav">
+                    <Link to='/sport'><a>All Men's Clothing</a></Link>
+                    <Link to='/sport'> <a>
+T-Shirts & Tops</a></Link>
+<Link to='/sport'> <a>Hoodies & SweatShirts</a></Link>
+<Link to='/sport'>  <a>Shorts</a></Link>
+<Link to='/sport'>   <a>Panth</a></Link>
+<Link to='/sport'>     <a>Jakects</a></Link>
+                    <Link to='/sport'>    <a>Tracksuits</a></Link>
+                    <Link to='/sport'>     <a>Matching Sets</a></Link>
+                    <Link to='/sport'>     <a>Jerseys Tall</a></Link>
+                </nav>
+            </header>
 <hr></hr>
 <div className="Cards">
 <div class="card-deck">
@@ -399,6 +344,7 @@ const Sport = () => {
 </p>
           </div>
             <div className="FooterDiv4">
+              <div className="korey">
                 <h1 className="FooterDiv4H1">JOIN OUR ADICLUB & GET 15% OFF</h1>
                <Link to='/sign'><button className="buttonbek">
               <div class='button'>
@@ -412,6 +358,8 @@ const Sport = () => {
     </button>
     </Link> 
     </div>
+    </div>
+    <div className="Pyshka">
             <div className="FooterDiv5">
                 <nav className="FooterDiv5Nav">
                     <h1 className="FooterDiv5H1">PRODUCT</h1>
@@ -489,7 +437,7 @@ const Sport = () => {
                 </nav>
             </div>
             </div>   
-          
+            </div>
         </div>
     );
 }
