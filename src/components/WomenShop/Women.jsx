@@ -342,17 +342,6 @@ T-Shirts & Tops</a></Link>
 
 </p>
           </div>
-          <li className="nav-item dropdown">
-        <a className="narver" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Назад
-        </a>
-        <ul className="dropdown-menu">
-          <li><a className="dropdown-item" href="#">Действие</a></li>
-          <li><a className="dropdown-item" href="#">Другое действие</a></li>
-          {'{'}/* <li><hr className="dropdown-divider" /></li> */{'}'}
-          <li><a className="dropdown-item" href="#">Что-то еще здесь</a></li>
-        </ul>
-      </li>
             <div className="FooterDiv4">
               <div className="korey">
                 <h1 className="FooterDiv4H1">JOIN OUR ADICLUB & GET 15% OFF</h1>

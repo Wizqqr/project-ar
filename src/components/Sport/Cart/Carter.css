@@ -169,10 +169,11 @@
 .ImTired img{
 /* height:700px;
 width:900px; */
-min-width: 1600px;
-max-width: 1600px;
-min-height: 700px;
-max-height: 700px;
+min-width: 1200px;
+max-width: 2000px;
+min-height: 500px;
+max-height: 900px;
+
 }
 .ImTired{
     display: flex;

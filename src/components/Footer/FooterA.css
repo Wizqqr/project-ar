@@ -37,4 +37,8 @@
 }
 .Uzker{
     margin-right: 5em;
+
+}
+.Button{
+    display: flex;
 }

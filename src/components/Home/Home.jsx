@@ -859,13 +859,19 @@ A PORTION OF THE SALE OF THESE ITEMS WILL BE DONATED IN SUPPORT OF THE FIGHT AGA
                 <div className="MessiDivInDiv">
                   <div className='MessiText'>
                   <h1>MESSI T-SHIRT INTER MIAMI</h1>
+                  <p>$45</p>
+                  <div className="Jak">
+                  <h3>Available for Pre-Order</h3>
                   <p>After months — years, even — of speculation, Messi finally revealed his decision to join a Miami franchise that has been led by another global soccer icon, David Beckham, since its inception but has yet to make any real splashes on the field.</p>
-                  <p>SIZES</p>
+                  </div>
+                  <div className="color">
+                    <h4>Pink/Black</h4>
+                  </div>
                   <div className="Sizes">
                     <button>S</button><button>M</button><button>L</button><button>XL</button><button>XXL</button><button>XXXL</button>
                   </div>
                   <button className='Buying'>BUY</button>
-                  <p> Pay in 4 interest-free payments of $47.50 <br></br> with QIWI <button className='ButIm'>Learn More</button></p>
+                  <p className='Benzxma'> Pay in 4 interest-free payments of $47.50 <br></br> with QIWI <button className='ButIm'>Learn More</button></p>
                   </div>
                 </div>
               </div>

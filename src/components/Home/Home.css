@@ -227,6 +227,37 @@ path.two {
     background-color: #ecebe9;
     width:650px;
     height:400px;
+    transition-property: all;
+    transition: .9s
+}
+.Cardochka:hover{
+    filter: brightness(96%);
+    border-radius: 20px;
+    -webkit-transform: scale(1.2);
+    -ms-ransform: scale(1.2);
+    transform: scale(1.2);
+}
+.CartMen{
+    transition-property: all;
+    transition: .9s
+}
+.CartMen:hover{
+    filter: brightness(96%);
+    border-radius: 20px;
+    -webkit-transform: scale(1.1);
+    -ms-ransform: scale(1.1);
+    transform: scale(1.1);
+}
+.FoorCards{
+    transition-property: all;
+    transition: .9s
+}
+.FoorCards:hover{
+    filter: brightness(96%);
+    border-radius: 20px;
+    -webkit-transform: scale(1.1);
+    -ms-ransform: scale(1.1);
+    transform: scale(1.1);
 }
 .Cardochka img{
     margin-left: 200px;
@@ -408,10 +439,8 @@ path.two {
     margin-top:200px;
 }
 .Messi{
-    border: 1px solid black;
-    border: top 1   em;
     border-top: 10px;
-    
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
 }
 .Messi img{
@@ -425,35 +454,55 @@ path.two {
     align-items: center;
 }
 .MessiDivInDiv{
-        background-color: rgb(227, 111, 204);
+        background-color: rgb(59, 59, 59);
     height: 1300px;
     max-width: 1200px;
     color:white;
     border-radius: 0px 20px 20px 0px;
     box-shadow: 10px 10px 10xp 10px violet;
 }
+.Jak{
+    margin-top: 50px;
+}
+.Jak h3{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.Jak p{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.color h4{
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 25px;
+}
 .MessiText{
     margin-left: 50px;
-    margin-top: 90px;
+    margin-top: 130px;
 }
 .MessiText p{
-    font-size: 35px;
-    margin-top: 30px;
+    /* margin: 0 auto; */
 }
 .Sizes{
     display: flex;
     column-gap: 10px;
+    margin-top: 50px;
 }
 .MessiText h1{
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Sizes button{
     background: none;
-    border:1px solid wheat ;
+    border:1px solid rgb(0, 0, 0) ;
     color:white;
-    height: 100px;
-    width:150px;
-    font-size: 40px;
+    height: 50px;
+    width:70px;
+    font-size: 25px;
 }
 .Sizes button:hover{
     height:80px;
@@ -473,6 +522,9 @@ path.two {
     width:400px;
     font-weight: 700;
     font-family: monospace;
+}
+.Benzxma{
+    margin-top: 50px;
 }
 .ButIm{
     border: none;
@@ -497,7 +549,7 @@ path.two {
 .Ronaldo{
     display: flex;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 40px;
     align-items: center;
 }
 .CardOfText h1{
@@ -585,4 +637,14 @@ p{
 }
 .CartMenText p{
     font-size: 25px;
+}
+.CarterCard{
+    transition-property: all;
+    transition: .9s
+}
+.CarterCard:hover{
+    border-radius: 20px;
+    -webkit-transform: scale(1.1);
+    -ms-ransform: scale(1.1);
+    transform: scale(1.1);
 }

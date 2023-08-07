@@ -34,7 +34,6 @@ const Cruises = () => {
     return (  
         <div className="RestOfCruises">
         <div className='Cruises'>
-
         <header className="CruisesHead">
             <li>Cruises</li>
             <li>Turkey</li>
@@ -119,16 +118,15 @@ const Cruises = () => {
     <div className='Turkish'>
     </div>
     <div className="Egyptian">
-        <Carter/>
         <Carter2/>
     </div>
 </div>
 <div className="ImVeryTired">
-                
+                <h1 className='Dzanik'>Recomment</h1>
                 <div className="World">
                 <div className="Tokyo">
-                <h1>Бурдж Халифа</h1>
-                  <p>«Бурдж-Хали́фа» — сверхвысотный небоскрёб высотой 828 метров в Дубае, <br></br>самое высокое и самое многоэтажное здание, самое высокое сооружение, единственный 828-метровый<br></br> и 163-этажный небоскрёб в мире. Уступчатая форм<br></br>здания напоминает сталагмит. Торжественная церемония <br></br>открытия состоялась 4 января 2010 года</p>
+                <h1>Дубай</h1>
+                  <p>Дубай — сверхвысотный небоскрёб высотой 828 метров в Дубае, <br></br>самое высокое и самое многоэтажное здание, самое высокое сооружение, <br></br>единственный 828-метровый<br></br> и 163-этажный небоскрёб в мире. Уступчатая форм<br></br>здания напоминает сталагмит. Торжественная церемония <br></br>открытия состоялась 4 января 2010 года</p>
                 </div>
                 <div className="Korea"></div>
                 </div>
@@ -150,13 +148,13 @@ const Cruises = () => {
                   </div>
                   <div className="Portugal">
                   <div className="Karask">
-                        <h1>Spain</h1>
+                        <h1>Portugal</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi incidunt rem laborum mollitia consectetur, sunt laudantium. Necessitatibus, praesentium voluptate reprehenderit illum itaque deserunt quisquam? Voluptas dolore nostrum velit quod voluptates!</p>
                     </div>
                   </div>
                   <div className="Spain">
                   <div className="Karask">
-                        <h1>Spain</h1>
+                        <h1>Germany</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi incidunt rem laborum mollitia consectetur, sunt laudantium. Necessitatibus, praesentium voluptate reprehenderit illum itaque deserunt quisquam? Voluptas dolore nostrum velit quod voluptates!</p>
                     </div>
                   </div>
@@ -165,6 +163,7 @@ const Cruises = () => {
                 
               </div>
               </div>
+
         <div className='CruisesFooter'>
             <div className='CruisesFooterIsStarting'>
                 <div className="CruisesFooterDivs">
